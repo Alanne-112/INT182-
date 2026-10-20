@@ -1,0 +1,94 @@
+{
+  "train_segments": 31,
+  "test_segments": 8,
+  "train_class_counts": {
+    "pass": 28,
+    "fail": 3
+  },
+  "test_class_counts": {
+    "pass": 6,
+    "fail": 2
+  },
+  "sources": {
+    "selected": [
+      {
+        "video_id": "814027316.115692",
+        "split": "train",
+        "segments": 6,
+        "labels": {
+          "pass": 6
+        },
+        "path": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\new-chat\\outputs\\buta-progress2\\runs\\train\\attempts_to_label.csv"
+      },
+      {
+        "video_id": "814113333.456591",
+        "split": "train",
+        "segments": 6,
+        "labels": {
+          "pass": 6
+        },
+        "path": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\new-chat\\outputs\\buta-progress2\\runs\\814113333.456591_20261019_213809_797642\\attempts_to_label.csv"
+      },
+      {
+        "video_id": "814200853.819908",
+        "split": "train",
+        "segments": 6,
+        "labels": {
+          "pass": 6
+        },
+        "path": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\new-chat\\outputs\\buta-progress2\\runs\\814200853.819908_20261020_215925_482454\\attempts_to_label.csv"
+      },
+      {
+        "video_id": "814201038.014669",
+        "split": "train",
+        "segments": 7,
+        "labels": {
+          "pass": 4,
+          "fail": 3
+        },
+        "path": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\new-chat\\outputs\\buta-progress2\\runs\\814201038.014669_20261020_220602_599757\\attempts_to_label.csv"
+      },
+      {
+        "video_id": "814201694.974323",
+        "split": "train",
+        "segments": 6,
+        "labels": {
+          "pass": 6
+        },
+        "path": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\new-chat\\outputs\\buta-progress2\\runs\\814201694.974323_20261020_220922_352201\\attempts_to_label.csv"
+      },
+      {
+        "video_id": "814201997.884944",
+        "split": "test",
+        "segments": 8,
+        "labels": {
+          "pass": 6,
+          "fail": 2
+        },
+        "path": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\new-chat\\outputs\\buta-progress2\\runs\\814201997.884944_20261020_221411_265233\\attempts_to_label.csv"
+      }
+    ],
+    "ignored": [
+      {
+        "path": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\new-chat\\outputs\\buta-progress2\\runs\\814113333.456591_20261019_221518_204958\\attempts_to_label.csv",
+        "reason": "no pass/fail labels"
+      },
+      {
+        "path": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\new-chat\\outputs\\buta-progress2\\runs\\814115011.691545_20261019_221417_747978\\attempts_to_label.csv",
+        "reason": "no pass/fail labels"
+      },
+      {
+        "path": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\new-chat\\outputs\\buta-progress2\\runs\\814201997.884944_20261020_222053_601620\\attempts_to_label.csv",
+        "reason": "no pass/fail labels"
+      },
+      {
+        "path": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\new-chat\\outputs\\buta-progress2\\runs\\814027316.115692_20261018_215055_256127\\attempts_to_label.csv",
+        "reason": "duplicate of 814027316.115692; latest complete review selected"
+      },
+      {
+        "path": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\new-chat\\outputs\\buta-progress2\\runs\\814115011.691545_20261019_220619_979556\\attempts_to_label.csv",
+        "reason": "test video not selected (not moved to train)"
+      }
+    ]
+  }
+}

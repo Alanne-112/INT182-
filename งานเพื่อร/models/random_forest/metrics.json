@@ -1,0 +1,86 @@
+{
+  "schema": "buta-sideview-v2",
+  "features": [
+    "knee_min",
+    "knee_return_peak",
+    "duration_s",
+    "hip_min",
+    "trunk_max"
+  ],
+  "sklearn_version": "1.9.1",
+  "train_segments": 12,
+  "test_segments": 7,
+  "skipped_rows": 0,
+  "train_class_counts": {
+    "pass": 9,
+    "fail": 3
+  },
+  "test_class_counts": {
+    "fail": 6,
+    "pass": 1
+  },
+  "train_videos": [
+    "814027316.115692",
+    "814113333.456591"
+  ],
+  "test_videos": [
+    "814115011.691545"
+  ],
+  "accuracy": 1.0,
+  "majority_baseline_accuracy": 0.14285714285714285,
+  "confusion_matrix_labels": [
+    "fail",
+    "pass"
+  ],
+  "confusion_matrix": [
+    [
+      6,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "classification_report": {
+    "fail": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "pass": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7.0
+    }
+  },
+  "feature_importances": {
+    "knee_min": 0.3710072735256946,
+    "knee_return_peak": 0.07525954188834891,
+    "duration_s": 0.23845211738358024,
+    "hip_min": 0.19439337747116192,
+    "trunk_max": 0.12088768973121439
+  },
+  "notes": [
+    "Preliminary experiment: do not infer general accuracy from a small dataset.",
+    "Binary form labels do not provide a diagnosis or an error-specific explanation.",
+    "Hip/trunk features do not directly measure spinal curvature.",
+    "Single participant: held-out videos only, not unseen-person performance.",
+    "Fewer than 50 training segments: exploratory result, not a sample-size adequacy claim."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema": "buta-sideview-v2",
+  "features": [
+    "knee_min",
+    "knee_return_peak",
+    "duration_s",
+    "hip_min",
+    "trunk_max"
+  ],
+  "sklearn_version": "1.9.1",
+  "train_segments": 31,
+  "test_segments": 8,
+  "skipped_rows": 0,
+  "train_class_counts": {
+    "pass": 25,
+    "fail": 6
+  },
+  "test_class_counts": {
+    "pass": 6,
+    "fail": 2
+  },
+  "train_videos": [
+    "814027316.115692",
+    "814113333.456591",
+    "814200853.819908",
+    "814201038.014669",
+    "814201694.974323"
+  ],
+  "test_videos": [
+    "814201997.884944"
+  ],
+  "accuracy": 0.625,
+  "majority_baseline_accuracy": 0.75,
+  "confusion_matrix_labels": [
+    "fail",
+    "pass"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "classification_report": {
+    "fail": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "pass": {
+      "precision": 0.7142857142857143,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.7692307692307693,
+      "support": 6.0
+    },
+    "accuracy": 0.625,
+    "macro avg": {
+      "precision": 0.35714285714285715,
+      "recall": 0.4166666666666667,
+      "f1-score": 0.38461538461538464,
+      "support": 8.0
+    },
+    "weighted avg": {
+      "precision": 0.5357142857142857,
+      "recall": 0.625,
+      "f1-score": 0.576923076923077,
+      "support": 8.0
+    }
+  },
+  "feature_importances": {
+    "knee_min": 0.38640771285423164,
+    "knee_return_peak": 0.21170445625551731,
+    "duration_s": 0.10124651159976365,
+    "hip_min": 0.1443089950935663,
+    "trunk_max": 0.1563323241969212
+  },
+  "notes": [
+    "Preliminary experiment: do not infer general accuracy from a small dataset.",
+    "Binary form labels do not provide a diagnosis or an error-specific explanation.",
+    "Hip/trunk features do not directly measure spinal curvature.",
+    "Single participant: held-out videos only, not unseen-person performance.",
+    "Fewer than 50 training segments: exploratory result, not a sample-size adequacy claim."
+  ]
+}

@@ -1,0 +1,8 @@
+﻿video_id,attempt_id,label,prediction,correct
+814115011.691545,1,fail,fail,True
+814115011.691545,2,fail,fail,True
+814115011.691545,3,fail,fail,True
+814115011.691545,4,fail,fail,True
+814115011.691545,5,pass,pass,True
+814115011.691545,6,fail,fail,True
+814115011.691545,7,fail,fail,True
